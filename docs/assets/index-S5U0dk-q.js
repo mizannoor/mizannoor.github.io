@@ -661,7 +661,7 @@ For more information, see https://radix-ui.com/primitives/docs/components/${e.do
 			<li><strong>Certified Data Science</strong> | <em>Big Data Institute</em> (Nov 2025)</li>\r
 			<li><strong>MyReskill IoT Programme</strong> | <em>MPC & Adroit Solution</em> (Oct 2022)</li>\r
 			<li>\r
-				<strong>Huawei BSS Solution Expert</strong> | <em>Huawei Global Training Center</em> (2021)\r
+				<strong>Huawei BSS Solution Expert</strong> | <em>Huawei Global Training Center</em> (Aug 2021)\r
 				<ul>\r
 					<li><em>Modules: TM CBS System O&M, Digital View System, CRM System, Offering Configuration, Mediation System.</em></li>\r
 				</ul>\r
@@ -796,11 +796,11 @@ Tasks: Respond as ${Ee.name} would highlighting relevant experience and skills.
 ${qi.formatChatHistory(v)}
 
 
-Interviewer: 
+${setupData.interviewerName} (Interviewer): 
 > "${Y}"
 
 
-${Ee.name}:
+${Ee.name} (You):
 > `;try{await E(ee,(te,pe)=>{const xe=v.concat([{id:crypto.randomUUID(),text:Y,isUser:!0}]).concat([{id:crypto.randomUUID(),text:te,isUser:!1}]);i(xe)})}catch(te){console.error("Streaming failed:",te)}},B=()=>{o(null),w(),d(""),i([]),s(!1)};return a?_.jsxs(ze.div,{initial:{opacity:0},animate:{opacity:1},className:"space-y-4",children:[_.jsxs("div",{className:"flex items-center justify-between",children:[_.jsxs("div",{children:[_.jsxs("h3",{className:"text-lg font-semibold text-secondary",children:[n.ai.interviewer.interviewWith," ",a.interviewerName]}),_.jsxs("p",{className:"text-sm text-muted-foreground",children:[a.company," • ",a.position]})]}),_.jsxs(Pi,{onClick:B,variant:"outline",size:"sm",children:[_.jsx(dx,{size:16,className:"mr-1"}),n.ai.interviewer.reset]})]}),_.jsxs("div",{className:"glass-card flex flex-col",style:{height:`${u}px`},ref:M,children:[_.jsxs("div",{className:"flex-1 overflow-y-auto p-4 space-y-2",children:[v.map((F,U)=>_.jsx(Qse,{message:F.text,isUser:F.isUser,isStreaming:F.isStreaming,delay:U*.1},F.id)),A&&_.jsx(ze.div,{initial:{opacity:0},animate:{opacity:1},className:"hidden flex justify-start mb-4",children:_.jsx("div",{className:"glass-card p-3",children:_.jsxs("div",{className:"flex space-x-1",children:[_.jsx("div",{className:"w-2 h-2 bg-accent rounded-full typing-dot"}),_.jsx("div",{className:"w-2 h-2 bg-accent rounded-full typing-dot"}),_.jsx("div",{className:"w-2 h-2 bg-accent rounded-full typing-dot"})]})})}),_.jsx("div",{ref:C})]}),_.jsx("div",{className:"h-2 bg-border/30 hover:bg-accent/30 cursor-ns-resize transition-colors flex items-center justify-center",onMouseDown:D,children:_.jsx("div",{className:"w-8 h-1 bg-muted-foreground/30 rounded"})}),_.jsx("div",{className:"p-4 border-t border-border/30",children:_.jsxs("div",{className:"flex gap-2",children:[_.jsx(zl,{value:c,onChange:F=>d(F.target.value),onKeyPress:F=>F.key==="Enter"&&P(),placeholder:n.ai.interviewer.placeholder,className:"flex-1",disabled:A}),_.jsx(Pi,{onClick:P,disabled:A||!c.trim(),className:"neon-button",children:_.jsx($D,{size:16})})]})})]})]}):_.jsx(Jse,{onComplete:V,t:n})},tae=({title:n,message:e,icon:t="ℹ️",duration:i=5e3})=>{const s=document.createElement("div");s.className="fixed top-4 right-4 bg-background border border-border rounded-lg p-4 shadow-lg z-50 max-w-sm",s.innerHTML=`
 		<div class="flex items-start gap-3">
 			<div class="text-accent">${t}</div>
