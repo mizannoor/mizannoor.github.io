@@ -17,6 +17,41 @@ I'm a **Senior Full Stack Polyglot Developer** with over **11 years of experienc
 - AI/ML Integration & Data Science
 - Mobile App Development
 
+## 📈 Professional Journey
+```mermaid
+timeline
+    title Mizan Noor - Professional & Academic Journey
+    
+    2013
+        : June - Software Engineer at Unijaya Resources Sdn. Bhd.
+        : July - Diploma in CS (IT) from UTM
+    
+    2014
+        : August - Ended Unijaya Resources role
+    
+    2018
+        : January - Software Engineer at Big Data Ocean Sdn. Bhd.
+        : August - Ended Big Data Ocean role
+        : September - Technology Consultant I at DXC Technology
+        : October - Bachelor in CS (Web Tech) from UTHM
+    
+    2019
+        : January - Ended DXC Technology role
+        : August - IT Service Operation (ITOC) at Webe Digital (TM)
+    
+    2021
+        : August - Huawei BSS Solution Expert Certification
+        : August - Ended Webe Digital role
+        : September - Full Stack Web Developer at CTRM Sdn. Bhd.
+    
+    2022
+        : October - MyReskill IoT Programme Completed
+    
+    2025
+        : November - Master in Mobile Software Development from UTeM
+        : November - Certified Data Science from Big Data Institute
+```
+
 ## 🌟 Featured Projects
 - [hvac-insight-kotlin-app](https://github.com/mizannoor/hvac-insight-kotlin-app) – Smart HVAC insights powered by Kotlin and IoT.
 - [snapdash-cms](https://github.com/mizannoor/snapdash-cms) – Flexible content management platform.
